@@ -1,0 +1,24 @@
+@import 'reset';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jomolhari', serif;
+}
+
+.featured-card {
+  position: relative;
+  text-align: center;
+  color: white;
+
+  &__image {
+    max-width: 1000px;
+  }
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
