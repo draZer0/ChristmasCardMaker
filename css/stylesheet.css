@@ -56,21 +56,27 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: "Jomolhari", serif;
+  background-image: url(../img/bg.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .featured-card {
   position: relative;
-  text-align: center;
   color: white;
 }
 .featured-card__image {
-  max-width: 1000px;
+  width: 1000px;
 }
 .featured-card__text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-family: "Dancing Script", cursive;
+  font-size: 5em;
+  top: 7%;
+  left: 7%;
+  color: #fff;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
